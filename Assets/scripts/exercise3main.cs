@@ -19,15 +19,15 @@ public class exercise3main : MonoBehaviour
         }
         if (n > 0)
         {
-            output.text = System.Convert.ToString($"Факториал {n}: {result}");
+            output.text = System.Convert.ToString($"Factorial {n}: {result}");
         }
         else if (n == 0)
         {
-            output.text = System.Convert.ToString($"Факториал {n}: 1");
+            output.text = System.Convert.ToString($"Factorial {n}: 1");
         }
         else
         {
-            output.text = "Ошибка! \nНельзя вычислить факториал от отрицательного числа!";
+            output.text = "Error! \nYou cannot calculate the factorial of a negative number!";
         }
     }
 }

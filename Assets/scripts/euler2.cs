@@ -25,6 +25,6 @@ public class euler2 : MonoBehaviour
                 continue;
             }
         }
-        print("Ёйлер 2 (—умма всех четных чисел ‘иббоначи не превышающих 4000000): " + count);
+        print("Euler 2 (The sum of all even Fibbonacci numbers not exceeding 4,000,000): " + count);
     }
 }

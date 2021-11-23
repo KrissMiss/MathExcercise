@@ -19,7 +19,7 @@ public class euler1 : MonoBehaviour
                 continue;
             }
         }
-        print("Ýיכונ 1: " + count);
+        print("Euler 1: " + count);
     }
 
 }
